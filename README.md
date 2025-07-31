@@ -26,13 +26,10 @@ EduPulse simulates a comprehensive education dataset to analyze academic perform
 6. Exploratory Data Analysis
 7. Visualization & Insights
 ## Key Insights
-Performance improved across all years post-COVID
-
-Minimal correlation between household income and performance
-
-Narrow gender gaps with competitive results across subjects
-
-Parental education level had minor effect on student scores
+- Performance improved across all years post-COVID
+- Minimal correlation between household income and performance
+- Narrow gender gaps with competitive results across subjects
+- Parental education level had minor effect on student scores
 ## Repository Structure
 - `/notebooks/`: Main analysis notebook
 - `/data/`: Generated CSVs
