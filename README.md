@@ -27,5 +27,5 @@ EduPulse simulates a comprehensive education dataset to analyze academic perform
 4. Parental education level had minor effect on student scores
 ## Repository Structure
 - `/notebooks/`: Main analysis notebook
-- `/data/`: Generated CSVs
+- `/data/`: Generated CSVs & Modelled SQL file
 - `/reports/`: Exported PDF summary
