@@ -32,13 +32,13 @@ EduPulse simulates a comprehensive education dataset to analyze academic perform
  ## How to Run
 
  ### Clone repo
-git clone https://github.com/your-username/EduPulse-Student-Performance-Analysis.git
+git clone https://github.com/kandyshan/EduPulse-Student-Performance-Analysis.git
 
 #### Install dependencies
 pip install -r requirements.txt
 
 #### Launch notebook
-jupyter notebook notebooks/EduPulse_Analysis.ipynb
+jupyter notebook notebooks/EduPulse-Student-Performance-Analysis.ipynb
 
 ## Future Work
 - Develop Power BI dashboard
