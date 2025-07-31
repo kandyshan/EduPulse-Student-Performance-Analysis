@@ -28,4 +28,4 @@ EduPulse simulates a comprehensive education dataset to analyze academic perform
 ## Repository Structure
 - `/notebooks/`: Main analysis notebook
 - `/data/`: Generated CSVs & Modelled SQL file
-- `/reports/`: Exported PDF summary
+- `/reports/`: Exported PDF summary & Images
