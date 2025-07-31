@@ -3,18 +3,13 @@ EduPulse simulates a comprehensive education dataset to analyze academic perform
 
 ## Objectives
 * Understand school and student performance trends over time
-
 * Analyze impact of parental education, household income, and COVID-19
-
 * Apply SQL data modeling and Python-based data exploration
 
 ## Tools & Technologies
 * Python (Pandas, Seaborn, Matplotlib, SQLAlchemy)
-
 * SQL Server 2025
-
 * Excel / CSV
-
 * Jupyter Notebook
 
 ## Project Workflow
