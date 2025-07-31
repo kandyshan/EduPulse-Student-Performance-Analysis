@@ -29,3 +29,10 @@ EduPulse simulates a comprehensive education dataset to analyze academic perform
 - `/notebooks/`: Main analysis notebook
 - `/data/`: Generated CSVs & Modelled SQL file
 - `/reports/`: Exported PDF summary & Images
+  
+## Future Work
+- Develop Power BI dashboard
+
+- Integrate AI/ML models for prediction
+
+- Expand data size and realism
