@@ -1,10 +1,21 @@
-Select * FROM dbo.performance
-LEFT JOIN dbo.students ON dbo.performance.Student_ID=dbo.students.Student_ID
-LEFT JOIN dbo.schools ON dbo.students.School_ID=dbo.schools.School_ID
-LEFT JOIN dbo.school_types ON dbo.schools.SchoolType_ID=dbo.school_types.SchoolType_ID
-LEFT JOIN dbo.boarding_status ON dbo.schools.BoardingStatus_ID=dbo.boarding_status.BoardingStatus_ID
-LEFT JOIN dbo.regions ON dbo.schools.Region_ID= dbo.regions.Region_ID
-LEFT JOIN dbo.countries ON dbo.schools.Country_ID= dbo.countries.Country_ID
-LEFT JOIN dbo.counties ON dbo.schools.County_ID= dbo.counties.County_ID
-LEFT JOIN dbo.household_income ON dbo.students.Income_ID= dbo.household_income.Income_ID
-LEFT JOIN dbo.parent_education ON dbo.students.ParentEdu_ID= dbo.parent_education.ParentEdu_ID
+SELECT 
+		p.Student_ID, p.YEAR,p.Term,p.Subject, p.score,
+		s.Student_Name, s.Gender,s.School_ID,
+		sc.School_Name,
+		st.SchoolType,
+		co.Country,
+		con.County,
+		reg.Region,
+		hic.Household_Income,
+		ped.Parent_Education,
+		bs.BoardingStatus
+FROM performance p
+LEFT JOIN students s ON p.Student_ID=s.Student_ID
+LEFT JOIN schools sc ON s.School_ID=sc.School_ID
+LEFT JOIN school_types st ON sc.SchoolType_ID=st.SchoolType_ID
+LEFT JOIN countries co ON sc.Country_ID=co.Country_ID
+LEFT JOIN counties con ON sc.County_ID=con.County_ID
+LEFT JOIN regions reg ON sc.Region_ID=reg.Region_ID
+LEFT JOIN household_income hic  ON s.Income_ID=hic.Income_ID
+LEFT JOIN parent_education ped  ON s.ParentEdu_ID=ped.ParentEdu_ID
+LEFT JOIN boarding_status bs  ON sc.BoardingStatus_ID=bs.BoardingStatus_ID
